@@ -18,7 +18,7 @@ p {
   padding: 0;
 }
 
-
+// header
 .header {
   display: flex;
   justify-content: center;
@@ -26,7 +26,7 @@ p {
   font-family: "Open Sans", sans-serif;
 }
 
-.demonstration {
+.demo {
   position: fixed;
   z-index: 10;
   width: 100%;
@@ -51,6 +51,8 @@ p {
   transition: .3s;
 
   background-color: black;
+
+  will-change: transform;
 }
 
 .container {
@@ -109,7 +111,7 @@ p {
 
   &--more {
     margin-right: 10px;
-    background-color: #4ec67f;
+    background-color: #ff891e;
   }
 
   &--stocks {
@@ -119,7 +121,7 @@ p {
 
 .btn--start {
   width: auto;
-  background-color: #4ec67f;
+  background-color: #ff891e;
 }
 
 .slider__card:nth-child(1) {
@@ -336,10 +338,6 @@ p {
     height: 16px;
     border: 2px solid #524336;
     border-radius: 50%;
-  }
-
-  .slider__dot:hover {
-    background-color: #000000;
   }
 
   .active-dot {
